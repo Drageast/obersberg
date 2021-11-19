@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+# Schul-Projekt: Erstellen einer Website für eine Imaginäre Firma
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Informationen über das Projekt
 
-## Available Scripts
+![CI/CD](https://github.com/drageast/obersberg/workflows/CI/CD/badge.svg)
+![GitHub](https://img.shields.io/github/license/Drageast/obersberg?label=Lizenz)
 
-In the project directory, you can run:
+- Dieses Projekt ist für die Benotung im Informatik Unterricht gedacht. **Informationen zur Benotung sind im Wiki - Bereich zu finden**
+- Dieses Projekt wird von [Drageast](https://github.com/drageast) unterhalten und von ihm, genauso wie [LauriNator188](https://github.com/LauriNator188) entwickelt
+- Auch wenn dieses Projekt keine strikte Linzens benötigt, ist es mit der [GPL Lizenz](LICENSE) belegt
+- Das Projekt wird mit ReactJS in Typescript geschrieben
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Projekt relevante Informationen
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### **Abhängigkeiten**
 
-### `npm test`
+- NodeJS
+- npm o. yarn
+- Reactjs
+- react-router-dom
+- react-icons
+- styled-components
+- framer-motion (^4.1.17)
+- react-responsive
+- typescript
+- gh-pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Farbpalette**
 
-### `npm run build`
+- Hintergrundfarbe
+  - `#000000`
+- Oberflächenfarbe
+  - `#0A0A0A`
+- Primärfarbe
+  - `#8247E4`
+- Sekundärfarbe
+  - `#A62639`
+- Drittfarbe
+  - `#135290`
+- Textfarbe
+  - `#FAE1DF`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Projekt Struktur**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```txt
+    | Einstiegspunkt -> Index.tsx
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    |- Über uns
 
-### `npm run eject`
+    |- Impressum
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    |- AGBs
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    |- Produkt Übersicht
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    |-- Anti-Malware Produkt
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    |-- Daten Verschlüsselungs Produkt
 
-## Learn More
+    |-- Firewall Produkt
+    
+    |-- ServerSchränke
+    
+    |-- Server (19 Zoll)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    |- Karriere
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    | 404
+```
+
+### **Ressourcen die wir nutzen**
+
+- [Haikei](https://app.haikei.app/)
+- [SVG Editor](https://editor.method.ac/)
+- [React JS](https://reactjs.org/)
+- [Inspiration](https://www.accenture.com/us-en)
+- [Inspiration 2](https://www.inter-tech.de/products/ipc/server-cases)
+- [Inspiration 3](https://www.serverschrank24.de/18-he-serverschrank-19-mit-glastur-bxtxh-600-x-600-x-1000mm.html)
+
+### **To-Do's und Bugs**
+
+- [x] NavBar größer
+- [x] html in react
+- [x] Rechtschreibfehler in 404 "Laden"
+- [x] Footer
+- [x] GitHub Actions
+- [x] Testing ENV
+- [x] CodeCov Setup
+- [x] Hauptseite als "Über uns" implementieren
+- [ ] Hauptseite gestalten
+- [x] Farbe des Logos im Tab-Bild ändern
+- [ ] Bonzen-Seite mit "Errungenschaften" der Frima
+- [ ] Spenden-Seite für Firma
+- [ ] Hardwareprodukte implementieren
+- [ ] Produkte in Hardware und Software Produkte aufteilen

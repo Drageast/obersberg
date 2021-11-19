@@ -1,5 +1,6 @@
 {
-  "name": "obersberg-zwei",
+  "homepage": "https://Drageast.github.io/obersberg-zwei",
+  "name": "obersberg",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,13 +11,21 @@
     "@types/node": "^12.20.37",
     "@types/react": "^17.0.35",
     "@types/react-dom": "^17.0.11",
+    "framer-motion": "^4.1.17",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-responsive": "^9.0.0-beta.4",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.3",
     "typescript": "^4.4.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.15"
   }
 }
