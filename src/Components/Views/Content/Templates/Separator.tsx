@@ -29,3 +29,9 @@ export const Horizontal2 = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
 `;
+
+export const Invisible = styled.div`
+    position: relative;
+    display: flex;
+    height: 1rem;
+`;

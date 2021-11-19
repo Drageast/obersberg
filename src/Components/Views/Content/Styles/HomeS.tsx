@@ -44,15 +44,30 @@ export const AligningBox = styled.div`
     }
 `;
 
+export const RowCSS2 = css`
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    .Link {
+        width: 30%;
+    }
+`;
+
+
 export const AligningBox2 = css`
+    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
-
-    width: 30%;
 
     h1 {
         color: ${Var.Primary()};
+    }
+
+    h3 {
+        color: ${Var.Secondary()};
+        font-size: 2em;
     }
 `;

@@ -17,7 +17,7 @@ const StyledForeground = styled(motion.div)<IForeground>`
 
     background-color: ${props => Var.Foreground(props.Opacity? props.Opacity : null)};
 
-    border-radius: 0.15rem;
+    border-radius: 0.5rem;
     padding: 0.75rem;
 
     ${props => props.CustomCSS? props.CustomCSS : ""}
