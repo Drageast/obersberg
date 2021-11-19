@@ -30,9 +30,6 @@ jobs:
     - name: Installierung der Abhaengigkeiten
       run: npm install --no-optional
 
-    - name: Durchlauf aller Tests und erstellung des Berichts dazu
-      run: npm test -- --coverage
-
     - name: Upload des Test-Berichts zu Codecov
       uses: codecov/codecov-action@v2.1.0
 
