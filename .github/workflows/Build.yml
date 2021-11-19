@@ -30,9 +30,6 @@ jobs:
     - name: Installierung der Abhaengigkeiten
       run: npm install --no-optional
 
-    - name: Upload des Test-Berichts zu Codecov
-      uses: codecov/codecov-action@v2.1.0
-
     - name: Git Konfiguration
       run: |
         git config --global user.name $user_name
