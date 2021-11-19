@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/obersberg-zwei/static/js/main.23ab5514.chunk.js",
+    "main.js.map": "/obersberg-zwei/static/js/main.23ab5514.chunk.js.map",
+    "runtime-main.js": "/obersberg-zwei/static/js/runtime-main.71f0d6c8.js",
+    "runtime-main.js.map": "/obersberg-zwei/static/js/runtime-main.71f0d6c8.js.map",
+    "static/js/2.9eae0d8b.chunk.js": "/obersberg-zwei/static/js/2.9eae0d8b.chunk.js",
+    "static/js/2.9eae0d8b.chunk.js.map": "/obersberg-zwei/static/js/2.9eae0d8b.chunk.js.map",
+    "index.html": "/obersberg-zwei/index.html",
+    "static/js/2.9eae0d8b.chunk.js.LICENSE.txt": "/obersberg-zwei/static/js/2.9eae0d8b.chunk.js.LICENSE.txt",
+    "static/media/Logo.f044222a.svg": "/obersberg-zwei/static/media/Logo.f044222a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71f0d6c8.js",
+    "static/js/2.9eae0d8b.chunk.js",
+    "static/js/main.23ab5514.chunk.js"
+  ]
+}
