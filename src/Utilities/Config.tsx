@@ -145,5 +145,13 @@ export const Views = {
     "Karriere": {
         "Path": "/karriere",
         "Title": "Karriere"
+    },
+    "Software": {
+        "Path": "/produkte/software",
+        "Title": "Software Produkte"
+    },
+    "Hardware": {
+        "Path": "/produkte/hardware",
+        "Title": "Hardware Produkte"
     }
 }

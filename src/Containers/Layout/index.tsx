@@ -17,6 +17,8 @@ import { Desktop as AD } from "../AGB";
 import { Desktop as PD } from "../Produkte";
 import { Desktop as UD } from "../Ueber-uns";
 import { Desktop as KD } from "../Karriere";
+import { Desktop as SD } from "../Software";
+import { Desktop as HaD} from "../Hardware";
 
 function BaseLayout() {
     return (
@@ -32,7 +34,7 @@ function BaseLayout() {
                         <>
                             <ModifiedElement  Title={ Views["Home"]["Title"] } Element={
                                 <>
-                                    <DeviceContentManager DesktopElement={ HD } MobileElement={ null }/>
+                                    <DeviceContentManager DesktopElement={ HD }/>
                                 </>
                             }/>
                         </>
@@ -42,7 +44,7 @@ function BaseLayout() {
                         <>
                             <ModifiedElement  Title={ Views["Impressum"]["Title"] } Element={
                                 <>
-                                    <DeviceContentManager DesktopElement={ ID } MobileElement={ null }/>
+                                    <DeviceContentManager DesktopElement={ ID }/>
                                 </>
                             }/>
                         </>
@@ -52,7 +54,7 @@ function BaseLayout() {
                         <>
                             <ModifiedElement  Title={ Views["AGB"]["Title"] } Element={
                                 <>
-                                    <DeviceContentManager DesktopElement={ AD } MobileElement={ null }/>
+                                    <DeviceContentManager DesktopElement={ AD }/>
                                 </>
                             }/>
                         </>
@@ -62,7 +64,7 @@ function BaseLayout() {
                         <>
                             <ModifiedElement  Title={ Views["Produkte"]["Title"] } Element={
                                 <>
-                                    <DeviceContentManager DesktopElement={ PD } MobileElement={ null }/>
+                                    <DeviceContentManager DesktopElement={ PD }/>
                                 </>
                             }/>
                         </>
@@ -72,7 +74,7 @@ function BaseLayout() {
                         <>
                             <ModifiedElement  Title={ Views["Ueber-uns"]["Title"] } Element={
                                 <>
-                                    <DeviceContentManager DesktopElement={ UD } MobileElement={ null }/>
+                                    <DeviceContentManager DesktopElement={ UD }/>
                                 </>
                             }/>
                         </>
@@ -82,19 +84,38 @@ function BaseLayout() {
                         <>
                             <ModifiedElement  Title={ Views["Karriere"]["Title"] } Element={
                                 <>
-                                    <DeviceContentManager DesktopElement={ KD } MobileElement={ null }/>
+                                    <DeviceContentManager DesktopElement={ KD }/>
                                 </>
                             }/>
                         </>
                     }/>
 
+                <Route path={ Views["Software"]["Path"] } element={
+                        <>
+                            <ModifiedElement  Title={ Views["Software"]["Title"] } Element={
+                                <>
+                                    <DeviceContentManager DesktopElement={ SD }/>
+                                </>
+                            }/>
+                        </>
+                    }/>
+
+                <Route path={ Views["Hardware"]["Path"] } element={
+                        <>
+                            <ModifiedElement  Title={ Views["Hardware"]["Title"] } Element={
+                                <>
+                                    <DeviceContentManager DesktopElement={ HaD }/>
+                                </>
+                            }/>
+                        </>
+                    }/>
 
                 {/*NotFound Route*/}
                 <Route path={ Views["NotFound"]["Path"] } element={
                         <>
                             <ModifiedElement  Title={ Views["NotFound"]["Title"] } Element={
                                 <>
-                                    <DeviceContentManager DesktopElement={ ND } MobileElement={ null }/>
+                                    <DeviceContentManager DesktopElement={ ND }/>
                                 </>
                             }/>
                         </>

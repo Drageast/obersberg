@@ -89,9 +89,9 @@
 - [x] Testing ENV
 - [x] CodeCov Setup
 - [x] Hauptseite als "Über uns" implementieren
-- [ ] Hauptseite gestalten
+- [x] Hauptseite gestalten
 - [x] Farbe des Logos im Tab-Bild ändern
 - [ ] Bonzen-Seite mit "Errungenschaften" der Frima
 - [ ] Spenden-Seite für Firma
-- [ ] Hardwareprodukte implementieren
-- [ ] Produkte in Hardware und Software Produkte aufteilen
+- [x] Hardwareprodukte implementieren
+- [x] Produkte in Hardware und Software Produkte aufteilen

@@ -1,7 +1,7 @@
 // Luca 100%
 import MediaQuery from 'react-responsive'
 
-const DeviceContentManager = (props: { DesktopElement: any; MobileElement: any; }) => {
+const DeviceContentManager = (props: { DesktopElement: any; MobileElement?: any; }) => {
     return (
         <>
             <MediaQuery minWidth={1224}>
