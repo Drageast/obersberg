@@ -68,4 +68,8 @@ export const LinkBody = styled.nav`
             margin-right: 1rem;
         }
     }
+
+    .Icon {
+        color: ${Var.Secondary()};
+    }
 `;

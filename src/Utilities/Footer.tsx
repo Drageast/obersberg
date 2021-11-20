@@ -11,8 +11,8 @@ export const Views = [
         icon: <MdInfoOutline/>
     },
     {
-        title: "AGB's",
-        path: "/agbs",
+        title: "AGB",
+        path: "/agb",
         icon: <VscLaw/>
     },
     {

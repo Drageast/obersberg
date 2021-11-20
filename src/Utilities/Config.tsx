@@ -125,5 +125,21 @@ export const Views = {
     "Home": {
         "Path": "/",
         "Title": "Hauptseite"
+    },
+    "Impressum": {
+        "Path": "/impressum",
+        "Title": "Impressum"
+    },
+    "AGB": {
+        "Path": "/agb",
+        "Title": "AGB"
+    },
+    "Produkte": {
+        "Path": "/produkte",
+        "Title": "Produkte"
+    },
+    "Ueber-uns": {
+        "Path": "/ueber-uns",
+        "Title": "Über uns"
     }
 }
