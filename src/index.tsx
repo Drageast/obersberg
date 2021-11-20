@@ -1,7 +1,8 @@
 // Luca 100%
 import React from 'react';
 import { render } from 'react-dom';
-import BaseLayout from "./Components/Core/Layout";
+
+import BaseLayout from "./Containers/Layout";
 import { HashRouter } from "react-router-dom";
 
 
