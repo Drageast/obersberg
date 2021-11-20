@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/obersberg-zwei/static/js/main.352a8cfc.chunk.js",
-    "main.js.map": "/obersberg-zwei/static/js/main.352a8cfc.chunk.js.map",
+    "main.js": "/obersberg-zwei/static/js/main.74e40498.chunk.js",
+    "main.js.map": "/obersberg-zwei/static/js/main.74e40498.chunk.js.map",
     "runtime-main.js": "/obersberg-zwei/static/js/runtime-main.71f0d6c8.js",
     "runtime-main.js.map": "/obersberg-zwei/static/js/runtime-main.71f0d6c8.js.map",
-    "static/js/2.a859e9a7.chunk.js": "/obersberg-zwei/static/js/2.a859e9a7.chunk.js",
-    "static/js/2.a859e9a7.chunk.js.map": "/obersberg-zwei/static/js/2.a859e9a7.chunk.js.map",
+    "static/js/2.5010ba66.chunk.js": "/obersberg-zwei/static/js/2.5010ba66.chunk.js",
+    "static/js/2.5010ba66.chunk.js.map": "/obersberg-zwei/static/js/2.5010ba66.chunk.js.map",
     "index.html": "/obersberg-zwei/index.html",
-    "static/js/2.a859e9a7.chunk.js.LICENSE.txt": "/obersberg-zwei/static/js/2.a859e9a7.chunk.js.LICENSE.txt",
+    "static/js/2.5010ba66.chunk.js.LICENSE.txt": "/obersberg-zwei/static/js/2.5010ba66.chunk.js.LICENSE.txt",
     "static/media/Logo.f044222a.svg": "/obersberg-zwei/static/media/Logo.f044222a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.71f0d6c8.js",
-    "static/js/2.a859e9a7.chunk.js",
-    "static/js/main.352a8cfc.chunk.js"
+    "static/js/2.5010ba66.chunk.js",
+    "static/js/main.74e40498.chunk.js"
   ]
 }
