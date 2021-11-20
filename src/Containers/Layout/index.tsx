@@ -16,6 +16,7 @@ import { Desktop as ID } from "../Impressum";
 import { Desktop as AD } from "../AGB";
 import { Desktop as PD } from "../Produkte";
 import { Desktop as UD } from "../Ueber-uns";
+import { Desktop as KD } from "../Karriere";
 
 function BaseLayout() {
     return (
@@ -72,6 +73,16 @@ function BaseLayout() {
                             <ModifiedElement  Title={ Views["Ueber-uns"]["Title"] } Element={
                                 <>
                                     <DeviceContentManager DesktopElement={ UD } MobileElement={ null }/>
+                                </>
+                            }/>
+                        </>
+                    }/>
+
+                <Route path={ Views["Karriere"]["Path"] } element={
+                        <>
+                            <ModifiedElement  Title={ Views["Karriere"]["Title"] } Element={
+                                <>
+                                    <DeviceContentManager DesktopElement={ KD } MobileElement={ null }/>
                                 </>
                             }/>
                         </>

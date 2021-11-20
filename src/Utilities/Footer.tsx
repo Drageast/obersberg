@@ -1,6 +1,6 @@
 // Laurenz 100%
 import React from 'react';
-import { MdInfoOutline, MdOutlinePersonOutline, MdPlace } from "react-icons/md";
+import { MdInfoOutline, MdOutlinePersonOutline, MdGroup } from "react-icons/md";
 import { VscLaw } from "react-icons/vsc";
 import { BsYoutube, BsTwitter, BsInstagram, BsFacebook } from "react-icons/bs";
 
@@ -8,22 +8,22 @@ export const Views = [
     {
         title: "Impressum",
         path: "/impressum",
-        icon: <MdInfoOutline/>
+        icon: <MdInfoOutline className="Icon"/>
     },
     {
         title: "AGB",
         path: "/agb",
-        icon: <VscLaw/>
+        icon: <VscLaw className="Icon"/>
     },
     {
         title: "Über uns",
         path: "/ueber-uns",
-        icon: <MdOutlinePersonOutline/>
+        icon: <MdOutlinePersonOutline className="Icon"/>
     },
     {
-        title: "Platzhalter",
-        path: "/404",
-        icon: <MdPlace/>
+        title: "Karriere",
+        path: "/karriere",
+        icon: <MdGroup className="Icon"/>
     }
 ]
 

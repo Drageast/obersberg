@@ -5,6 +5,7 @@ import * as Var from "../../Utilities/Variables";
 
 export const CustomCSS1 = css`
     flex-direction: column;
+    column-count: 3;
 
     h1 {
         color: ${Var.Primary()};

@@ -12,17 +12,17 @@ export function Desktop() {
                 <h1>Über uns</h1>
                 <Foreground CustomCSS={ css.Spacing }>
                     <Foreground CustomCSS={ css.Box }>
-                        <h2> Gründung </h2>
+                        <h2> Geschichte </h2>
 
                         <p>
-                            In 2018 wollten wir ein Unternehmen
-                            mit zunehmender Online-Präsenz gründen,
-                            allerdings hatten wir große Probleme dabei,
-                            ein passendes Angebot für die Sicherheit
-                            unserer Daten zu finden. Also haben wir beschlossen,
-                            unser eigenes Unternehmen für Sicherheit im Internet
-                            zu gründen. Ein Jahr später beschlossen wir, unser Angebot
-                            mit sicheren High-End Servern zu erweitern.
+                            Im Jahr 2015 hatten wir die Idee für ein Unternehmen, welches einen Messaging-Dienst bietet,
+                            welcher Nachrichten Ende-zu-Ende verschlüsselt. Unser Unternehmen wollte dritt-Anbieter für die Speicherung und die
+                            Benachrichtigung nutzen, jedoch war es sehr schwer ein passendes Angebot unter tausenden Firmen zu finden, welche teils sehr
+                            unseriös wirkten. So entstand unser neues Unternehmen. Wir beschlossen ein seriöses Unternehmen für sichere Software und Datenbanken
+                            zu gründen. Im Jahr 2017 beschlossen wir, einem der größten Wünsche unserer Kunden nachzukommen - Server und Serverschränke. Da unsere
+                            Kunden von unserer Sicherheit sehr überzeugt sind, baten sie uns, verschlüsselte Server zu entwickeln und zu verkaufen.
+
+                            So entstand unser Unternehmen, wie es heute ist.
                         </p>
                     </Foreground>
                     <Foreground CustomCSS={ css.Box }>

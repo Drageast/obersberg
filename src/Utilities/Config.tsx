@@ -141,5 +141,9 @@ export const Views = {
     "Ueber-uns": {
         "Path": "/ueber-uns",
         "Title": "Über uns"
+    },
+    "Karriere": {
+        "Path": "/karriere",
+        "Title": "Karriere"
     }
 }
