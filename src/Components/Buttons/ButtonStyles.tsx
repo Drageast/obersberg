@@ -7,5 +7,6 @@ import { IMotion } from "../Interfaces/Motion";
 
 export const StyledButton1 = styled(motion.div)<IMotion>`
     text-decoration: none;
+    cursor: pointer;
     ${props => props.CustomCSS};
 `;
