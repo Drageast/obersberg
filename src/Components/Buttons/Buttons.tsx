@@ -62,3 +62,23 @@ export const Button3 = (props: { CustomCSS?: any; onClick?: React.MouseEventHand
         </StyledButton1>
     );
 }
+
+export const Button4 = (props: { CustomCSS?: any; onClick?: React.MouseEventHandler<HTMLDivElement> | undefined; Element: boolean | React.ReactChild | React.ReactFragment | React.ReactPortal | null | undefined; }) => {
+    return (
+        <StyledButton1
+
+        CustomCSS={props.CustomCSS ? props.CustomCSS : ""}
+
+        whileHover={{scale: 1.5, x: -3, y: -3}}
+
+        whileTap={{scale: 0.99}}
+
+        transition={{ type: "ease", stiffness: 150 }}
+
+        onClick={props.onClick}
+
+        >
+            {props.Element}
+        </StyledButton1>
+    );
+}

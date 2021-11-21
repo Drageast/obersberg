@@ -1,19 +1,20 @@
 // Luca 100%
 import { useState } from "react";
 
-export function useImages(ImageList: any[], StartIndex: number) {
-    const [index, setIndex] = useState(StartIndex);
-    const List: any[] = ImageList;
+export function useImages(ImageList: any[]) {
+    const [index, setIndex] = useState(0);
+    const [Image, setImage] = useState(ImageList[1])
 
     const Next = () => {
         setIndex(index + 1);
 
-        if (index >= ImageList.length)
+        if (index === ImageList.length - 1)
         {
             setIndex(0)
         }
-        return List[index]
+
+        setImage(ImageList[index])
     }
 
-    return Next;
+    return [Image, Next];
 }

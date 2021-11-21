@@ -24,6 +24,7 @@
 - styled-components
 - framer-motion (^4.1.17)
 - react-responsive
+- react-router-hashlink
 - typescript
 - gh-pages
 

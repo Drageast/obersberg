@@ -4,8 +4,6 @@ import { createGlobalStyle } from "styled-components";
 import * as Var from "../../Utilities/Variables";
 
 export const Global = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto&display=swap');
-
     html {
         scroll-behavior: smooth;
     }
@@ -23,7 +21,7 @@ export const Global = createGlobalStyle`
 
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Quicksand', sans-serif;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     a {
