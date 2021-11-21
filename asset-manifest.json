@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/obersberg-zwei/static/js/main.5d812697.chunk.js",
-    "main.js.map": "/obersberg-zwei/static/js/main.5d812697.chunk.js.map",
+    "main.js": "/obersberg-zwei/static/js/main.390707c9.chunk.js",
+    "main.js.map": "/obersberg-zwei/static/js/main.390707c9.chunk.js.map",
     "runtime-main.js": "/obersberg-zwei/static/js/runtime-main.97354fce.js",
     "runtime-main.js.map": "/obersberg-zwei/static/js/runtime-main.97354fce.js.map",
-    "static/js/2.e11627e3.chunk.js": "/obersberg-zwei/static/js/2.e11627e3.chunk.js",
-    "static/js/2.e11627e3.chunk.js.map": "/obersberg-zwei/static/js/2.e11627e3.chunk.js.map",
+    "static/js/2.165a0b6e.chunk.js": "/obersberg-zwei/static/js/2.165a0b6e.chunk.js",
+    "static/js/2.165a0b6e.chunk.js.map": "/obersberg-zwei/static/js/2.165a0b6e.chunk.js.map",
     "index.html": "/obersberg-zwei/index.html",
-    "static/js/2.e11627e3.chunk.js.LICENSE.txt": "/obersberg-zwei/static/js/2.e11627e3.chunk.js.LICENSE.txt",
+    "static/js/2.165a0b6e.chunk.js.LICENSE.txt": "/obersberg-zwei/static/js/2.165a0b6e.chunk.js.LICENSE.txt",
     "static/media/Logo.f044222a.svg": "/obersberg-zwei/static/media/Logo.f044222a.svg",
     "static/media/Server_2HE_1.d532969f.png": "/obersberg-zwei/static/media/Server_2HE_1.d532969f.png",
     "static/media/Server_2HE_2.da090385.png": "/obersberg-zwei/static/media/Server_2HE_2.da090385.png",
@@ -24,7 +24,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.97354fce.js",
-    "static/js/2.e11627e3.chunk.js",
-    "static/js/main.5d812697.chunk.js"
+    "static/js/2.165a0b6e.chunk.js",
+    "static/js/main.390707c9.chunk.js"
   ]
 }
