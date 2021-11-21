@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.js": "/obersberg-zwei/static/js/main.94148114.chunk.js",
-    "main.js.map": "/obersberg-zwei/static/js/main.94148114.chunk.js.map",
-    "runtime-main.js": "/obersberg-zwei/static/js/runtime-main.71f0d6c8.js",
-    "runtime-main.js.map": "/obersberg-zwei/static/js/runtime-main.71f0d6c8.js.map",
-    "static/js/2.4fd6392f.chunk.js": "/obersberg-zwei/static/js/2.4fd6392f.chunk.js",
-    "static/js/2.4fd6392f.chunk.js.map": "/obersberg-zwei/static/js/2.4fd6392f.chunk.js.map",
+    "main.js": "/obersberg-zwei/static/js/main.5d812697.chunk.js",
+    "main.js.map": "/obersberg-zwei/static/js/main.5d812697.chunk.js.map",
+    "runtime-main.js": "/obersberg-zwei/static/js/runtime-main.97354fce.js",
+    "runtime-main.js.map": "/obersberg-zwei/static/js/runtime-main.97354fce.js.map",
+    "static/js/2.e11627e3.chunk.js": "/obersberg-zwei/static/js/2.e11627e3.chunk.js",
+    "static/js/2.e11627e3.chunk.js.map": "/obersberg-zwei/static/js/2.e11627e3.chunk.js.map",
     "index.html": "/obersberg-zwei/index.html",
-    "static/js/2.4fd6392f.chunk.js.LICENSE.txt": "/obersberg-zwei/static/js/2.4fd6392f.chunk.js.LICENSE.txt",
-    "static/media/Logo.f044222a.svg": "/obersberg-zwei/static/media/Logo.f044222a.svg"
+    "static/js/2.e11627e3.chunk.js.LICENSE.txt": "/obersberg-zwei/static/js/2.e11627e3.chunk.js.LICENSE.txt",
+    "static/media/Logo.f044222a.svg": "/obersberg-zwei/static/media/Logo.f044222a.svg",
+    "static/media/Server_2HE_1.d532969f.png": "/obersberg-zwei/static/media/Server_2HE_1.d532969f.png",
+    "static/media/Server_2HE_2.da090385.png": "/obersberg-zwei/static/media/Server_2HE_2.da090385.png",
+    "static/media/Server_3HE_1.5afffbc2.png": "/obersberg-zwei/static/media/Server_3HE_1.5afffbc2.png",
+    "static/media/Server_3HE_2.3dfa0d6c.png": "/obersberg-zwei/static/media/Server_3HE_2.3dfa0d6c.png",
+    "static/media/Server_4HE_1.2cd62c9d.png": "/obersberg-zwei/static/media/Server_4HE_1.2cd62c9d.png",
+    "static/media/Server_4HE_2.11dd11ba.png": "/obersberg-zwei/static/media/Server_4HE_2.11dd11ba.png",
+    "static/media/Server_4HE_TTF_1.f1fb5bc8.png": "/obersberg-zwei/static/media/Server_4HE_TTF_1.f1fb5bc8.png",
+    "static/media/Server_4HE_TTF_2.50955b09.png": "/obersberg-zwei/static/media/Server_4HE_TTF_2.50955b09.png",
+    "static/media/Server_Rack_15HE_1.2421aa38.png": "/obersberg-zwei/static/media/Server_Rack_15HE_1.2421aa38.png",
+    "static/media/Server_Rack_15HE_2.598f528d.png": "/obersberg-zwei/static/media/Server_Rack_15HE_2.598f528d.png",
+    "static/media/Server_Rack_18HE_1.598f528d.png": "/obersberg-zwei/static/media/Server_Rack_18HE_1.598f528d.png",
+    "static/media/Server_Rack_18HE_2.5f306ee1.png": "/obersberg-zwei/static/media/Server_Rack_18HE_2.5f306ee1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.71f0d6c8.js",
-    "static/js/2.4fd6392f.chunk.js",
-    "static/js/main.94148114.chunk.js"
+    "static/js/runtime-main.97354fce.js",
+    "static/js/2.e11627e3.chunk.js",
+    "static/js/main.5d812697.chunk.js"
   ]
 }
