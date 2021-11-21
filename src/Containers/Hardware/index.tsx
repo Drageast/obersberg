@@ -3,7 +3,7 @@ import React from 'react';
 
 import { Foreground } from '../../Components/Foreground';
 import * as css from "./Styles";
-import { useImages } from "../../Hooks";
+import { useSwapper } from "../../Hooks";
 import * as Image from "../../Assets/Server";
 import * as Imaget from "../../Assets/Server/Rack";
 import { Button4 } from '../../Components/Buttons';
@@ -11,27 +11,27 @@ import { Horizontal2 } from '../../Components/Assets';
 
 export function Desktop() {
 
-    const [Image1, Next1] = useImages([
+    const [Image1, Next1] = useSwapper([
         Image.Server_2HE_Back, Image.Server_2HE_Front
     ])
 
-    const [Image2, Next2] = useImages([
+    const [Image2, Next2] = useSwapper([
         Image.Server_3HE_Back, Image.Server_3HE_Front
     ])
 
-    const [Image3, Next3] = useImages([
+    const [Image3, Next3] = useSwapper([
         Image.Server_4HE_Back, Image.Server_4HE_Front
     ])
 
-    const [Image4, Next4] = useImages([
+    const [Image4, Next4] = useSwapper([
         Image.Server_4HE_TTF_Back, Image.Server_4HE_TTF_Front
     ])
 
-    const [Image5, Next5] = useImages([
+    const [Image5, Next5] = useSwapper([
         Imaget.Server_Rack_15HE_Closed, Imaget.Server_Rack_15HE_Open
     ])
 
-    const [Image6, Next6] = useImages([
+    const [Image6, Next6] = useSwapper([
         Imaget.Server_Rack_18HE_Closed, Imaget.Server_Rack_18HE_Open
     ])
 

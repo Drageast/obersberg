@@ -1,9 +1,11 @@
 // Laurenz 100%
 import React from 'react';
 
+import * as MdIcons from "react-icons/md";
+
 import { Foreground } from '../../Components/Foreground';
 import * as css from "./Styles";
-import * as MdIcons from "react-icons/md";
+import { Button4 } from "../../Components/Buttons";
 
 export function Desktop() {
     return (
@@ -24,6 +26,7 @@ export function Desktop() {
                             <p> Wir filtern diverse Downloads</p>
                             <p> Wir überwachen die Netzwerkverbindung auf unauthorisierte Zugriffe</p>
 
+                            <Button4 CustomCSS={ css.ButtonStyles } Element={<h3>Kaufen</h3>}/>
                         </Foreground>
 
                         <Foreground CustomCSS={ css.CustomCSSPic}>
@@ -42,6 +45,7 @@ export function Desktop() {
                             <p> Schnelle funktionsweise</p>
                             <p> Sehr starke Verschlüsselung</p>
 
+                            <Button4 CustomCSS={ css.ButtonStyles } Element={<h3>Kaufen</h3>}/>
                         </Foreground>
 
                         <Foreground CustomCSS={ css.CustomCSSPic}>

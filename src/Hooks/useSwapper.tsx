@@ -1,7 +1,7 @@
 // Luca 60%, Laurenz 40%
 import { useState } from "react";
 
-export function useImages(ImageList: any[]) {
+export function useSwapper(ImageList: any[]) {
     const [index, setIndex] = useState(0);
     const [Image, setImage] = useState(ImageList[1])
 

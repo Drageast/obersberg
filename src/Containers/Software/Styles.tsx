@@ -80,4 +80,14 @@ export const CustomCSSPic = css`
         color: ${Var.Primary( 60 )};
     }
 `;
-export {}
+
+export const ButtonStyles = css`
+    color: ${Var.Primary()};
+    background-color: ${Var.Third(30)};
+
+    border-radius: 0.5rem;
+    width: 40%;
+    height: 40%;
+
+    margin: 1rem;
+`;
