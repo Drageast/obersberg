@@ -1,4 +1,4 @@
-// Luca 100%
+// Luca 50%, Laurenz 50%
 import { TransparencyRange } from "../Components/Interfaces/General";
 import { Colors as ColorData } from "./Config";
 

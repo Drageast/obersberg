@@ -1,4 +1,4 @@
-// Luca 100%
+// Luca 60%, Laurenz 40%
 import { useState } from "react";
 
 export function useImages(ImageList: any[]) {

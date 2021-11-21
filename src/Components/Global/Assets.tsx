@@ -1,4 +1,4 @@
-// Luca 100%
+// Laurenz 100%
 import styled from "styled-components";
 
 export const ContentWrapper = styled.div`
