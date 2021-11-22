@@ -28,7 +28,7 @@ export function Desktop() {
     ])
 
     const [Image5, Next5] = useSwapper([
-        Imaget.Server_Rack_15HE_Closed, Imaget.Server_Rack_15HE_Open
+        Imaget.Server_Rack_15HE_Open, Imaget.Server_Rack_15HE_Closed
     ])
 
     const [Image6, Next6] = useSwapper([
