@@ -28,7 +28,9 @@ export function FooterBody() {
                             {Media.map((item, index) => {
                                 return (
                                     <li key={index}>
+                                        <Link to= ' /404 ' title= ' 404 '>
                                         <Button3 Element={<>{item.icon}</>}/>
+                                        </Link>
                                     </li>
                                 );
                             })}
