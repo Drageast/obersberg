@@ -5,6 +5,8 @@
 ![CI/CD](https://github.com/drageast/obersberg-zwei/workflows/CI/CD/badge.svg)
 ![GitHub](https://img.shields.io/github/license/Drageast/obersberg-zwei?label=Lizenz)
 
+[Link zur Website](https://drageast.github.io/obersberg-zwei/#/)
+
 - Dieses Projekt ist für die Benotung im Informatik Unterricht gedacht. **Informationen zur Benotung sind im Wiki - Bereich zu finden**
 - Dieses Projekt wird von [Drageast](https://github.com/drageast) unterhalten und von ihm, genauso wie [LauriNator188](https://github.com/LauriNator188) entwickelt
 - Auch wenn dieses Projekt keine strikte Linzens benötigt, ist es mit der [GPL Lizenz](LICENSE) belegt
@@ -80,19 +82,4 @@
 - [Inspiration 2](https://www.inter-tech.de/products/ipc/server-cases)
 - [Inspiration 3](https://www.serverschrank24.de/18-he-serverschrank-19-mit-glastur-bxtxh-600-x-600-x-1000mm.html)
 
-### **To-Do's und Bugs**
 
-- [x] NavBar größer
-- [x] html in react
-- [x] Rechtschreibfehler in 404 "Laden"
-- [x] Footer
-- [x] GitHub Actions
-- [x] Testing ENV
-- [x] CodeCov Setup
-- [x] Hauptseite als "Über uns" implementieren
-- [x] Hauptseite gestalten
-- [x] Farbe des Logos im Tab-Bild ändern
-- [ ] Bonzen-Seite mit "Errungenschaften" der Frima
-- [ ] Spenden-Seite für Firma
-- [x] Hardwareprodukte implementieren
-- [x] Produkte in Hardware und Software Produkte aufteilen
