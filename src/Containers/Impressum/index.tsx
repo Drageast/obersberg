@@ -19,7 +19,7 @@ export function Desktop() {
 
                 <p><span>Mail:</span> am@obersberg.com </p>
 
-                <p><span>Geschäftsführer:</span> Luca Michael Schmidt,  Laurenz Frerich Bernhart Lübben</p>
+                <p><span>Geschäftsführer:</span> Luca Michael Schmidt,  Laurenz Frerich Bernhardt Lübben</p>
 
                 <p><span>Handelsregister:</span> Amtsgericht Bad Hersfeld, HRB 00000000 </p>
 
