@@ -17,9 +17,9 @@ export function Desktop() {
     const ToggelPhilipp = () => {
         Counter ++;
         
-        if (Counter === 3)
+        if (Counter === 5)
         {
-            setPhilipp("Phillip ist der beste")
+            setPhilipp("Philipp ist der beste")
         }
     }
     
