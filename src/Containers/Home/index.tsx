@@ -1,5 +1,5 @@
 // Laurenz 100%
-import React from 'react';
+import React, { useState } from 'react';
 
 import { MdOutlineSecurity } from "react-icons/md";
 import { FaGlobeEurope } from "react-icons/fa";
@@ -11,11 +11,23 @@ import { Horizontal1, Spacer } from "../../Components/Assets"
 
 
 export function Desktop() {
+    const [Philipp, setPhilipp] = useState("Obersberg");
+    var Counter = 0;
+    
+    const ToggelPhilipp = () => {
+        Counter ++;
+        
+        if (Counter === 3)
+        {
+            setPhilipp("Phillip ist der beste")
+        }
+    }
+    
     return (
         <>
             <Foreground CustomCSS={ css.RowCSS }>
                 <css.AligningBox>
-                    <h1>Obersberg</h1>
+                    <h1 onClick={ ToggelPhilipp }>{Philipp}</h1>
                     <h2>Wo Sicherheit die reale Welt trifft</h2>
                 </css.AligningBox>
                 <css.AligningBox>
