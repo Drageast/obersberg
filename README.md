@@ -2,10 +2,10 @@
 
 ## Informationen über das Projekt
 
-![CI/CD](https://github.com/drageast/obersberg-zwei/workflows/CI/CD/badge.svg)
-![GitHub](https://img.shields.io/github/license/Drageast/obersberg-zwei?label=Lizenz)
+![CI/CD](https://github.com/drageast/obersberg/workflows/CI/CD/badge.svg)
+![GitHub](https://img.shields.io/github/license/Drageast/obersberg?label=Lizenz)
 
-[Link zur Website](https://drageast.github.io/obersberg-zwei/#/)
+[Link zur Website](https://drageast.github.io/obersberg/#/)
 
 - Dieses Projekt ist für die Benotung im Informatik Unterricht gedacht. **Informationen zur Benotung sind im Wiki - Bereich zu finden**
 - Dieses Projekt wird von [Drageast](https://github.com/drageast) unterhalten und von ihm, genauso wie [LauriNator188](https://github.com/LauriNator188) entwickelt
