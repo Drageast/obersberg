@@ -5,10 +5,10 @@
 ![CI/CD](https://github.com/drageast/obersberg/workflows/CI/CD/badge.svg)
 ![GitHub](https://img.shields.io/github/license/Drageast/obersberg?label=Lizenz)
 
-[Link zur Website](https://drageast.github.io/obersberg/#/)
+[Link zur Website](https://lumisxh.github.io/obersberg/#/)
 
 - Dieses Projekt ist für die Benotung im Informatik Unterricht gedacht. **Informationen zur Benotung sind im Wiki - Bereich zu finden**
-- Dieses Projekt wird von [Drageast](https://github.com/drageast) unterhalten und von ihm, genauso wie [LauriNator188](https://github.com/LauriNator188) entwickelt
+- Dieses Projekt wird von [LuMiSxh](https://github.com/lumisxh) unterhalten und von ihm, genauso wie [LauriNator188](https://github.com/LauriNator188) entwickelt
 - Auch wenn dieses Projekt keine strikte Linzens benötigt, ist es mit der [GPL Lizenz](LICENSE) belegt
 - Das Projekt wird mit ReactJS in Typescript geschrieben
 
